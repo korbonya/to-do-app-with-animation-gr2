@@ -34,7 +34,6 @@ function render() {
     let label = document.createElement("label");
     label.innerText = todo.todo;
     label.htmlFor = checkbox.name;
-
     let button = document.createElement("button");
     button.innerText = "X";
     button.classList.add("delete");
