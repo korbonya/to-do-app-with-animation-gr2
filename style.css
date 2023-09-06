@@ -15,13 +15,14 @@ body{
 }
 
 h1{
+    position: relative;
+    height: 2.4rem;
     font-size: 2rem;
     font-weight: 700;
     line-height: 1.5;
     margin: 1rem 0;
     padding: 0;
-    animation: move 1s ease-in-out;
-    animation-iteration-count: infinite;
+    animation: slideIn 2.5s ease-out infinite;
 }
 
 .input{
@@ -161,5 +162,20 @@ h1{
         font-size: 0;
         padding: 0;
         margin: 0;
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        color: #f02727;
+    }
+    50% {
+        opacity: 0.5;
+        color: #f0a427;
+    }
+    100% {
+        opacity: 1;
+        color: #058105;
     }
 }
