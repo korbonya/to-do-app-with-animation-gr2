@@ -117,6 +117,11 @@ h1{
     padding: .4rem .5rem;
 }
 
+.list .update:hover{
+    background-color: #f4a526e6;
+    color: #ffd9d9;
+}
+
 .list .delete:hover{
     background-color: #ca4848;
     color: #ffd9d9;
